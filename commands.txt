@@ -1,0 +1,24 @@
+# update server software
+sudo apt update
+
+# intall Terraform, souce - official documentation
+# https://developer.hashicorp.com/terraform/downloads
+
+# check Terraform version
+$ terraform -v
+
+# locate to home directory
+cd ~
+
+# create project directory and switch to it
+sudo mkdir <project name>
+cd <project name>
+
+# pull project files from your GitHub repository
+git pull https://github.com/sequenceXYZ/DevOps4ML_Terraform.git
+
+# run Terraform commands:
+terraform init
+terraform plan
+terraform apply
+terraform destroy
