@@ -39,3 +39,6 @@ variable "http_port" {
   type        = number
   default     = 80
 }
+variable "cidr_blocks" {
+  type = string
+  default = ["0.0.0.0/0"]
