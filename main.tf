@@ -34,7 +34,7 @@ resource "aws_security_group" "sftp_server_sg" {
   tags = {
     Name    = "SFTP_server"
     Owner   = "Agnija Vjakse"
-    Project = "DevOps4ML_Terraform"
+    Project = "DevOps_Terraform"
   }
 }
 
@@ -58,6 +58,6 @@ resource "aws_instance" "sftp_server" {
   tags = {
     Name    = "SFTP_server"
     Owner   = "Agnija Vjakse"
-    Project = "DevOps4ML_Terraform"
+    Project = "DevOps_Terraform"
   }
 }
