@@ -2,7 +2,7 @@
 
 # DevOps_Terraform_SFTP server
 
-This repository contains various scripts and configuration files necessary for setting up and managing infrastructure using Terraform and other tools.
+This repository contains scripts and configuration files necessary for setting up and managing infrastructure using Terraform.
 
 ## Table of Contents
 - [Getting Started](#getting-started)
