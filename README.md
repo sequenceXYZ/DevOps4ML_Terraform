@@ -5,13 +5,25 @@
 This repository contains scripts and configuration files necessary for setting up and managing infrastructure using Terraform.
 
 ## Table of Contents
+- [Project Description](#project-description)
 - [Getting Started](#getting-started)
 - [Prerequisites](#prerequisites)
 - [Installation](#installation)
 - [Usage](#usage)
 - [Scripts](#scripts)
-- [Project Description](#project-description)
 
+  
+## Project Description
+
+As a junior DevOps engineer, you need to create Infrastructure as a Code for our SFTP server.
+
+### Requirements:
+- Use the default VPC in the Frankfurt region.
+- The SFTP server should listen on port 15955.
+- This port must be available only from the local network and the private IP address of the executor.
+- The SFTP server must be available only for the user "admin".
+- An S3 bucket should be used to back up the `/opt/*` directory from the SFTP server.
+- A backup must be done every minute and overwrite files with the same names.
 
 ## Getting Started
 
@@ -57,16 +69,3 @@ This repository includes several scripts for different purposes:
 3. **SFTP Script:** This script sets the SFTP server port to 15955 and configures iptables to allow access.
 
 4. **Commands File:** This file includes a list of commands to set up the project environment and run Terraform.
-
-## Project Description
-
-As a junior DevOps engineer, you need to create Infrastructure as a Code for our SFTP server.
-
-### Requirements:
-- Use the default VPC in the Frankfurt region.
-- The SFTP server should listen on port 15955.
-- This port must be available only from the local network and the private IP address of the executor.
-- The SFTP server must be available only for the user "admin".
-- An S3 bucket should be used to back up the `/opt/*` directory from the SFTP server.
-- A backup must be done every minute and overwrite files with the same names.
-
