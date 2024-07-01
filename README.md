@@ -1,6 +1,6 @@
 ### README.md
 
-# DevOps_Terraform_SFTP server
+# DevOps_Terraform_SFTP-server
 
 This repository contains scripts and configuration files necessary for setting up and managing infrastructure using Terraform.
 
